@@ -106,6 +106,9 @@ SELECT location_id
 FROM locations
 WHERE street_address = '2004 Charade Rd' AND city = 'Seattle';
 
+INSERT INTO jobs (job_title, min_salary, max_salary)
+VALUES ('Consultant', 3000, 12000);
+
 INSERT INTO departments (department_name, location_id)
 VALUES ('Consultants', 1700);
 
